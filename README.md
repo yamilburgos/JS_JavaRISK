@@ -20,8 +20,8 @@ Your app must:
 - **Include separate HTML / CSS / JavaScript files**
 - Use the **KISS (Keep It Simple Stupid)** and **DRY (Don't Repeat Yourself)** principles
 - Use **Vanilla JavaScript** or **jQuery** for **DOM manipulation**
-- **Deploy your game online**, where the rest of the world can access it [To be shown on Thursday - Github Pages]
-- Use **responsive design** for HTML and CSS (adhere to best practices)
+- **Deploy your game online**, where the rest of the world can access it
+- Use **adaptive design** and media queries for HTML and CSS (adhere to best practices)
 
 You cannot use:
 
