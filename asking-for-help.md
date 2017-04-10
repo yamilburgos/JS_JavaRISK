@@ -25,7 +25,9 @@ Give info about what you have done to solve the problem. Including but not limit
 ### Question
 What would you like help with specifically?
 
-For an example: [Sample Question](https://gist.github.com/DrRobotmck/6c7f464ef64b131097fa)
+### Sample question examples: 
+- [Sample 1](https://gist.github.com/DrRobotmck/6c7f464ef64b131097fa)
+- [Sample 2](https://github.com/jlr7245/castleadventure/issues/1)
 
 P.S. Make sure to add the instructors as collaborators!!!
 
