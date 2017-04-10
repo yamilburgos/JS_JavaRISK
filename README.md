@@ -2,6 +2,8 @@
 
 ### Overview
 
+### Due Sunday at 11pm
+
 For the first project, we're doing something fun - **a game!**
 
 Everyone will get a chance to **be creative**, and work through some really **tough programming challenges** – it's up to you to come up with a fun and interesting game to build.
