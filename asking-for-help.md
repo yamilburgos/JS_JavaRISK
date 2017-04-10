@@ -7,6 +7,8 @@ In order to receive help on an issue you are having during your development proc
 Below is a guide for the information that must be included when submitting an issue.
 It is EXPECTED that you will try to debug/solve an issue _prior_ to submitting a request for help on Github.
 
+> _Note_: Asking a question on StackOverflow is hard and takes some practice -- don't be discouraged if you get some rude or discouraging comments the first couple times. Everyone goes through a StackOverflow learning curve. That being said, I recommend reading these two guides before diving in: [How do I ask a good question on StackOverflow?](https://stackoverflow.com/help/how-to-ask) and [How to create a Minimal, Complete, and Verifiable Example](https://stackoverflow.com/help/mcve).
+
 ### Context
 When submitting an issue, provide context as to what the problem is. This includes but is not limited to:
 - What you are trying to do
