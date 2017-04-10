@@ -26,7 +26,7 @@ Your app must:
 
 You cannot use:
 
-- **External libraries**, except jQuery and FontAwesome. This includes things like D3, Bootstrap, etc. If y
+- **External libraries**, except jQuery and FontAwesome. This includes things like D3, Bootstrap, etc.
 - **HTML5 Canvas**. I know it sounds tempting, but believe me, it is _not worth it_. (I used Canvas and it was a big mistake!! - J)
 
 ---
