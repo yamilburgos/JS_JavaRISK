@@ -16,8 +16,9 @@ Everyone will get a chance to **be creative**, and work through some really **to
 Your app must:
 
 - **Render the game in the browser**
-- **Design and implement logic for winning** and **visually display a win or loss state or which player won in a 2 player game**
+- **Design and implement logic for winning** and **visually display a win or loss state of which player won in a 2 player game (if the game is two-player)**
 - **Include separate HTML / CSS / JavaScript files**
+- **Use at least one JavaScript Class** - a good approach to this is to begin making the game and then to look for ways to refactor it to use classes in at least one case
 - Use the **KISS (Keep It Simple Stupid)** and **DRY (Don't Repeat Yourself)** principles
 - Use **Vanilla JavaScript** or **jQuery** for **DOM manipulation**
 - **Deploy your game online**, where the rest of the world can access it
@@ -25,7 +26,7 @@ Your app must:
 
 You cannot use:
 
-- **External libraries**, except jQuery and FontAwesome. This includes things like D3, Bootstrap, etc. 
+- **External libraries**, except jQuery and FontAwesome. This includes things like D3, Bootstrap, etc. If y
 - **HTML5 Canvas**. I know it sounds tempting, but believe me, it is _not worth it_. (I used Canvas and it was a big mistake!! - J)
 
 ---
