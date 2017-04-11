@@ -16,7 +16,7 @@ Everyone will get a chance to **be creative**, and work through some really **to
 ### Technical Requirements
 
 Your app must:
-- **Abide by the [airBnB style](https://github.com/airbnb/javascript) guide**
+- **Abide by the [airBnB](https://github.com/airbnb/javascript) style guide**
 - **Render the game in the browser**
 - **Design and implement logic for winning** and **visually display a win or loss state of which player won in a 2 player game (if the game is two-player)**
 - **Include separate HTML / CSS / JavaScript files**
