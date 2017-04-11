@@ -16,7 +16,7 @@ Everyone will get a chance to **be creative**, and work through some really **to
 ### Technical Requirements
 
 Your app must:
-
+- **Abide by the airBnB style guide**[airBnB](https://github.com/airbnb/javascript)
 - **Render the game in the browser**
 - **Design and implement logic for winning** and **visually display a win or loss state of which player won in a 2 player game (if the game is two-player)**
 - **Include separate HTML / CSS / JavaScript files**
@@ -24,19 +24,17 @@ Your app must:
 - Use the **KISS (Keep It Simple Stupid)** and **DRY (Don't Repeat Yourself)** principles
 - Use **Vanilla JavaScript** or **jQuery** for **DOM manipulation**
 - **Deploy your game online**, where the rest of the world can access it
-- Use **adaptive design** and media queries for HTML and CSS (adhere to best practices)
+- Use **responsive design** and media queries for HTML and CSS (adhere to best practices)
 
-You cannot use:
-
-- **External libraries without pre-approval**, except jQuery and FontAwesome. This includes things like D3, Bootstrap, etc.
-- **HTML5 Canvas**. I know it sounds tempting, but believe me, it is _not worth it_. (I used Canvas and it was a big mistake!! - J)
+**IF** you have completed your MVP (minimum viable product) you can seek approval from your squad lead before incorporting external libraries. 
 
 ---
 
 ### Necessary Deliverables
 
 - A **working game, built by you**, hosted on the internet
-- A **git repository hosted on Github**, with a link to your hosted game in the URL section, and **frequent** commits dating back to the very beginning of the project
+- Your code *must* be commented. Your code is not just for computers, we have to read it comments are an integral part of that process.
+- A **git repository hosted on Github**, with a link to your hosted game in the URL section, and **daily** commits dating back to the very beginning of the project. A rule of thumb is to commit after each function.
 - **A ``readme.md`` file** which must include:
   - Explanations of the technologies used
   - Approach taken
@@ -53,7 +51,7 @@ You cannot use:
 - **Break the project down into different components** (data, presentation, views, style, DOM manipulation) and brainstorm each component individually. Use whiteboards!
 - **Use your Development Tools** (console.log, inspector, alert statements, etc) to debug and solve problems
 - **Commit early, commit often. [VERY IMPORTANT]** Don’t be afraid to break something because you can always go back in time to a previous version.
-- **Research documentation resources** (MDN, jQuery, etc.) at home to better understand what you’ll be getting into.
+- **Research documentation resources** (MDN, jQuery,W3Schools etc.) at home to better understand what you’ll be getting into.
 - **Don’t be afraid to write code that you know you will have to remove later.** Create temporary elements (buttons, links, etc) that trigger events if real data is not available. For example, if you’re trying to figure out how to change some text when the game is over but you haven’t solved the win/lose game logic, you can create a button to simulate that until then.
 
 ---
@@ -76,7 +74,7 @@ Make a one player game where people down on their luck can lose all their money 
 
 ### Useful Resources
 
-- **[w3 CSS](http://www.w3schools.com/w3css/)** _(CSS tutorials and reference)_
+- **[w3](http://www.w3schools.com/)** _(Reference)_
 - **[MDN Javascript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)** _(a great reference for all things Vanilla Javascript)_
 - **[jQuery Docs](http://api.jquery.com)** _(if you're using jQuery)_
 - **[Github Pages](https://pages.github.com)** _(for hosting your game)_
