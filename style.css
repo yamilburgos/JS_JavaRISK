@@ -5,16 +5,16 @@
 }
 
 span {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     border: 5px dotted lightblue;
     border-radius: 15px;
 }
 
 .gameBoard {
     margin-top: 3%;
-    height: 550px;
-    width: 550px;
+    height: 375px;
+    width: 600px;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
 }
@@ -24,7 +24,7 @@ span:hover {
 }
 
 p {
-    line-height: 100px;
+    line-height: 60px;
     font-size: 50px;
     text-align: center;
     color: white;
@@ -46,8 +46,4 @@ h3 {
     margin-top: 1%;
     font-size: 30px;
     text-align: center;
-}
-
-h1 a {
-    color:red;
 }
