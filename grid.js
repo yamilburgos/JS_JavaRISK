@@ -2,7 +2,7 @@ console.log('grid.js is connected');
 
 class Grid {
     constructor() {
-        this.cellContainer = [];
+        this.cellList = [];
         this.gridAmount = 40;
 
         this.setupBoard();
@@ -22,14 +22,14 @@ class Grid {
             this.cells = document.createElement("span");
             this.cells.setAttribute("class", "cell");
 
-            this.cellContainer.push(this.cells);
+            this.cellList.push(this.cells);
             this.gameBoard.appendChild(this.cells);
         }
     }
 
     setupValues() {
-        for (let i = 0; i < this.cellContainer.length; i++) {
-            this.cellContainer[i].textContent = randomNumber(1,3);
+        for (let i = 0; i < this.cellList.length; i++) {
+            this.cellList[i].textContent = randomNumber(1,3);
         }
     }
 
@@ -38,10 +38,10 @@ class Grid {
         let querySelect = window.getComputedStyle(this.gameBoard);
         let xLimit = querySelect.gridTemplateColumns.split(" ").length;
 
-        for (let i = 0; i < this.cellContainer.length; i++) {
+        for (let i = 0; i < this.cellList.length; i++) {
             xValue = (xValue++ < xLimit) ? xValue : 1;
             yValue = (xValue === 1) ? yValue + 1 : yValue;
-            this.cellContainer[i].setAttribute("points", [xValue, yValue]);
+            this.cellList[i].setAttribute("position", [xValue, yValue]);
         }
     }
 
@@ -59,22 +59,22 @@ class Grid {
 
         let chosenColor = colorPicker(colorObject);
         this.firstColor = chosenColor;
-        this.setupTerritory(this.firstColor);
+        this.setupTerritory(this.firstColor, "player1");
 
         chosenColor = colorPicker(colorObject);
         this.secondColor = chosenColor;
-        this.setupTerritory(this.secondColor);
+        this.setupTerritory(this.secondColor, "player2");
     }
 
-    setupTerritory(gridColor) {
+    setupTerritory(gridColor, thisPlayer) {
         let playerGet = this.gridAmount / 2;
 
         while (playerGet > 0) {
-            let newValue = randomNumber(0, this.cellContainer.length);
+            let newValue = randomNumber(0, this.cellList.length);
 
-            if (this.cellContainer[newValue].getAttribute("color") === null) {
-                this.cellContainer[newValue].setAttribute("color", gridColor);
-                this.cellContainer[newValue].style.backgroundColor = gridColor;
+            if (this.cellList[newValue].getAttribute("player") === null) {
+                this.cellList[newValue].setAttribute("player", thisPlayer);
+                this.cellList[newValue].style.backgroundColor = gridColor;
                 playerGet--;
             }
         }
@@ -94,5 +94,3 @@ function colorPicker(thisObject) {
 function randomNumber(min, max) {
     return Math.floor(Math.random() * max) + min;
 }
-
-new Grid();
