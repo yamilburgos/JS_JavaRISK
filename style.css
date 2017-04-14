@@ -4,13 +4,6 @@
     justify-content: center;
 }
 
-span {
-    width: 60px;
-    height: 60px;
-    border: 5px dotted lightblue;
-    border-radius: 15px;
-}
-
 .gameBoard {
     margin-top: 3%;
     height: 375px;
@@ -19,17 +12,22 @@ span {
     grid-template-columns: repeat(8, 1fr);
 }
 
-span:hover {
-    border: 5px solid black;
-}
-
-p {
+span {
+    width: 60px;
+    height: 60px;
     line-height: 60px;
+
+    border: 5px dashed white;
+    border-radius: 20px;
+
+    color: white;
     font-size: 50px;
     text-align: center;
-    color: white;
     text-shadow: 2px 2px 4px #000000;
-    border-radius: 15px;
+}
+
+span:hover {
+    border: 5px dashed black;
 }
 
 h1 {
