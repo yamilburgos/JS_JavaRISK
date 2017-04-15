@@ -1,6 +1,6 @@
 console.log('grid.js is connected');
 
-class Grid {
+class Grid {    
     constructor() {
         this.cellList = [];
         this.gridAmount = 40;
