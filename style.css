@@ -67,8 +67,6 @@ button:hover {
 }
 
 .dice {
-    box-sizing: border-box;
-
     width: 90px;
     height: 90px;
     line-height: 85px;
@@ -83,17 +81,17 @@ button:hover {
 }
 
 #firstDice {
-   // position: absolute; 
-    display: block;
     float: left;
+    position: fixed;
+    left: 50%;
+    margin-top: -2em;
+    margin-left: -6em;
 }
 
 #secondDice {
-    //  position: absolute;
-    display: block;
-    float: right;
-}
-
-.dice:hover {
-    transform: rotateZ(720deg);
+    float: left;
+    position: fixed;
+    right: 50%;
+    margin-top: -2em;
+    margin-right: -6em;
 }

@@ -15,6 +15,12 @@ class Grid {
     setupBoard() {
         this.gameBoard = document.querySelector("div");
         this.gameBoard.setAttribute("class", "gameBoard");
+        
+        this.diceOne = document.querySelector("#firstDice");
+        this.diceTwo = document.querySelector("#secondDice");
+        
+        this.diceOne.style.display = "none";
+        this.diceTwo.style.display = "none";
     }
 
     setupCells() {
