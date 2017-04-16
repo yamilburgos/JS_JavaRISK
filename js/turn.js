@@ -24,6 +24,7 @@ class Turn {
         for (let i = 0; i < array.length; i++) {
             if (array[i].getAttribute("player") !== this.newPlayer) {
                 array[i].textContent = Math.min(6, parseInt(array[i].textContent) + 1);
+                array[i].style.border = "";
             }
         }
     }
