@@ -1,9 +1,9 @@
 component   estimate   invested    %complete   actual
 
-Game Init       1           3         100%         3    
+Game Init       1           3         100%       3    
 
-Playing Logic   20          13          55%        11
+Playing Logic   20          26        100%       25
 
-Winning Logic   3           1           50%         1
+Winning Logic   3           2         100%       1.5
 
-Game Reset      2
+Game Reset      2           .5        100%       .5
