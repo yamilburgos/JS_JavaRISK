@@ -28,8 +28,3 @@ class Turn {
         }
     }
 }
-
-//
-//function maxNumberLimit(content) {
-//    return Math.min(6, parseInt(content));
-//}
