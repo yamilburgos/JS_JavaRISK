@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
     <head>
+        <link href="https://fonts.googleapis.com/css?family=Asar" rel="stylesheet">
         <title>Java RISK! The JavaScript Conquest Game</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -8,7 +9,32 @@
 
     <body>
         <h1>Java RISK!</h1>
-        <h2>The JavaScript Conquest Game</h2>
+        <holder>
+            <h2>The JavaScript Conquest Game</h2>
+            <p>
+                The objective of the game is to conquer the gameboard by changing all the board's territories to your player's color. You do this
+                by attacking the other Player's territory and attempt to capture them. You also need to make sure that your own territories are
+                well-defended.
+
+                <li> - The board is always split in half for both players. Both the territory and the amount of power given is random.
+                </li>
+                <li>
+                    - Every turn the power of the Player's territories increases by 1, so playing defense for a turn is viable.
+                </li>
+                <li>
+                    - You can only attack adjacent territories, no diagonals! Can only attack if your territory's power is greater than 1.
+                </li>
+                <li>
+                    - You can attack any number of times with your territories until you end your turn. Attacking is always optional!
+                </li>
+                <li>
+                    - The chance of taking the enemy's territory depends on your territory's power, the greater the number, the better.
+                </li>
+                <li>
+                    - You can use your captured territory for further attacks. Be warned that the attacking territory is left with a power of one.
+                </li>
+            </p>
+        </holder>
         <div></div>
         <h3>Player<a class="turnIcon"> 1's Turn!</a></h3>
         <button type="button" id="button">End Turn</button>

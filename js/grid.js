@@ -24,13 +24,22 @@ class Grid {
         this.diceTwo = document.querySelector("#secondDice");
         this.diceOne.style.display = "none";
         this.diceTwo.style.display = "none";
+
+        // References the following elements and hides them for now.
+        let holder = document.querySelector("holder");
+        holder.style.display = "none";
+
+        document.querySelector("h1").addEventListener("click", function() {
+            // Calls the following functions everytime this text is pressed.
+            holder.style.display = holder.style.display === "none" ? "block" : "none";
+        });
     }
 
     setupCells() {
         // Loops through with the provided grid amount, set the
         // class, push it to the cellList and append it to the
         // game board.
-        
+
         for (let i = 0; i < this.gridAmount; i++) {
             this.cells = document.createElement("span");
             this.cells.setAttribute("class", "cell");
@@ -75,7 +84,7 @@ class Grid {
 
         // Calls the colorPicker method to select a color at random.
         // Then assign the chosen color. Lastly call setupTerritory.
-        
+
         let chosenColor = colorPicker(colorObject);
         this.firstColor = chosenColor;
         this.setupTerritory(this.firstColor, "player1");

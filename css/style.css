@@ -8,6 +8,7 @@
     margin: 0 auto;
     padding: 0;
     justify-content: center;
+    font-family: 'Asar', serif;
 }
 
 .gameBoard {
@@ -36,14 +37,15 @@ span:hover {
     border-color: black;
 }
 
-h1 {
-    font-style: italic;
-    margin-top: 3%;
+h1, h2 {
+    font-size: 30px;
+    text-align: center;
 }
 
-h1, h2 {
+h1 {
     font-size: 50px;
-    text-align: center;
+    font-style: italic;
+    margin-top: 3%;
 }
 
 h3 {
@@ -70,6 +72,12 @@ button {
 button:hover {
     background: rgba(0,0,0,0);
     box-shadow: inset 4px 4px silver;
+}
+
+li, p {
+    list-style: none;
+    width: 600px;
+    font-size: 18px;
 }
 
 .dice {
