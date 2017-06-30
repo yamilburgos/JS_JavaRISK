@@ -47,7 +47,7 @@ The objective of the game is to conquer the gameboard by changing all the board'
 [Yamil Burgos](https://github.com/yamilburgos/) – yamil.burgos1293@gmail.com
 
 ## Contributing
-1. Fork it (<https://github.com/yamilburgos/RedAndBlueSite/fork>)
+1. Fork it (<https://github.com/yamilburgos/JavaRISK/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
