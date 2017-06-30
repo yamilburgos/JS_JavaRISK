@@ -1,7 +1,13 @@
-# Project #1: Java RISK!
-## The JavaScript Conquest Game
+# Java-RISK
+> A 2-player browser game that was based on the popular 1957 board game Risk.
 
-### How to Play
+[![Build Status][travis-image]][travis-url]
+
+	https://yamilburgos.github.io/JavaRISK
+
+![](demo.png)
+
+## The JavaScript Conquest Game (How to Play)
 
 The objective of the game is to conquer the gameboard by changing all the board's territories to your player's color. You do this by attacking the other Player's territory and attempt to capture them. You also need to make sure that your own territories are well-defended.
 
@@ -12,20 +18,14 @@ The objective of the game is to conquer the gameboard by changing all the board'
 - The chance of taking the enemy's territory depends on your territory's power, the greater the number, the better.
 - You can use your captured territory for further attacks. Be warned that the attacking territory is left with a power of one.
 
----
-
-### Technology Used
-
+## Tech Stack
 - HTML
 - CSS
 - JavaScript
 - Brackets
 - Google Chrome
 
----
-
-### Approach Taken
-
+## Approach Taken
 - Create game board and divide the game's pieces among the two players.
 - Provide a button to switch controls between both players.
 - Provides 2 unique colors for both players to provide a visual difference.
@@ -37,17 +37,24 @@ The objective of the game is to conquer the gameboard by changing all the board'
 - Use the number value to determine the number of rolls and total number on a dice.
 - Always check to see if all the pieces were taken by a Player to see if someone won.
 
----
-
-### User Stories
-
+## User Stories
 - As a user, I like to be able to end my turn with the click of a button.
 - As a user, I like to restart and play the game again after winning or losing.
 - As a user, I like to be able to see the dice results for both players.
 - As a user, I like to know whose player turn is it right now. 
 
----
+## Meta
+[Yamil Burgos](https://github.com/yamilburgos/) – yamil.burgos1293@gmail.com
 
-### Unsolved Problems
+## Contributing
+1. Fork it (<https://github.com/yamilburgos/RedAndBlueSite/fork>)
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Commit your changes (`git commit -am 'Add some fooBar'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Create a new Pull Request
 
-Managed to resolve all the problems that occurred during Project development. Don't know if there's any underlining issues within the code (bugs and such).
+<!-- Markdown link & img dfn's -->
+[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/datadog-metrics
+[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
+[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
